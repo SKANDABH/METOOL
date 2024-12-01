@@ -1,0 +1,1517 @@
+Find the rate of return on an investment over a set period.
+Determine the y-intercept of a line from its equation.
+Calculate the probability of multiple independent events.
+Evaluate the double integral over a defined region.
+Find the point of intersection of two linear equations.
+Calculate the principal amount from compound interest.
+Determine the shortest distance between a point and a line.
+Evaluate a factorial expression with positive integers.
+Find the expected value of a continuous random variable.
+Determine the maximum area of a rectangle within a circle.
+Solve an inequality involving absolute values.
+Calculate the arc length of a sector in a circle.
+Determine the surface area of a triangular pyramid.
+Calculate the sum of an infinite geometric series.
+Determine the half-life of a radioactive substance.
+Solve a quadratic inequality with real solutions.
+Calculate the power required to lift an object vertically.
+Find the area between two curves on a graph.
+Determine the probability of drawing two aces from a deck.
+Calculate the heat energy needed to raise a substance's temperature.
+Determine the slope at a given point on a parabola.
+Find the roots of a logarithmic equation.
+Calculate the volume of a pyramid with a square base.
+Determine the rate of evaporation of a liquid over time.
+Find the initial velocity of an object in projectile motion.
+Calculate the acceleration of an object sliding down an incline.
+Determine the time taken for an object to reach terminal velocity.
+Find the probability of obtaining heads on multiple coin flips.
+Solve a system of equations using substitution.
+Calculate the net force acting on an object in motion.
+Determine the energy required to compress a spring.
+Solve for the value of an angle in a regular polygon.
+Calculate the center of mass of a system of particles.
+Determine the force needed to keep an object moving in a circle.
+Calculate the potential difference between two points.
+Solve for the height of a triangle given its area and base.
+Determine the work done by a force on an object.
+Calculate the moment about a point on a beam.
+Find the probability of rolling a prime number on a die.
+Determine the rate of flow of a liquid through a pipe.
+Calculate the energy stored in a capacitor.
+Determine the resonance frequency of a circuit.
+Find the probability of obtaining a sum in a dice roll.
+Calculate the electric field at a point from a charge.
+Determine the amount of charge on a capacitor in a circuit.
+Find the maximum force in a spring at maximum compression.
+Calculate the specific heat of a material from given data.
+Determine the shear force on a beam under load.
+Calculate the moment of inertia for a circular disk.
+Find the pressure at a certain depth in a fluid.
+Determine the maximum power output of a motor.
+Calculate the surface area of a hemispherical dome.
+Determine the area of an isosceles triangle given its sides.
+Find the current flowing through a resistor in a circuit.
+Calculate the area swept by the radius of a rotating object.
+Determine the magnetic flux through a closed surface.
+Calculate the torque exerted by a force on a lever.
+Find the angle between two vectors in three-dimensional space.
+Determine the angle of elevation to an object from a distance.
+Calculate the lateral surface area of a cylinder.
+Solve for the value of an unknown in a rational equation.
+Determine the height of an object using trigonometric ratios.
+Calculate the volume of a prism with a triangular base.
+Find the time of flight of a projectile in motion.
+Determine the final velocity of an object after free fall.
+Calculate the potential energy of an object at a height.
+Determine the area of an ellipse given its radii.
+Find the number of ways to arrange objects in a line.
+Calculate the probability of drawing two consecutive cards.
+Determine the impulse on an object from a force.
+Calculate the area of a sector with a known radius and angle.
+Determine the buoyant force on an object in water.
+Find the probability of a specific sequence of coin flips.
+Calculate the rate of decay for a radioactive isotope.
+Determine the perimeter of a polygon with given side lengths.
+Find the probability of selecting a specific color of marble.
+Calculate the total resistance in a parallel circuit.
+Determine the magnetic field around a current-carrying wire.
+Find the centripetal force acting on an object in a circle.
+Calculate the energy required to boil a certain volume of water.
+Determine the volume of a rectangular prism.
+Calculate the time taken for an object to reach a velocity.
+Determine the distance traveled by an object in motion.
+Calculate the rate of change of velocity over time.
+Find the pressure exerted by a gas in a closed container.
+Determine the equilibrium point in a market model.
+Calculate the rate of change in a function over an interval.
+Determine the power dissipated in an electrical circuit.
+Calculate the gravitational force between two masses.
+Find the maximum height reached by a projectile.
+Determine the probability of obtaining two tails in coin flips.
+Calculate the sum of an arithmetic sequence.
+Determine the surface area of a cube.
+Find the limit of a function as it approaches zero.
+Calculate the potential energy stored in a spring.
+Determine the frequency of oscillation of a pendulum.
+Calculate the work done in moving a charge in an electric field.
+Determine the area of a shaded region in a composite shape.
+Find the time taken to cover a distance at constant speed.
+Calculate the angular displacement of a rotating object.
+Solve for the value of 
+𝑥
+x in a simple linear equation.
+Find the sum of the first 
+𝑛
+n terms in an arithmetic sequence.
+Determine the solution to a quadratic equation using the quadratic formula.
+Calculate the derivative of a polynomial function.
+Find the area under a curve using definite integration.
+Determine the inverse of a matrix.
+Solve a system of linear equations using Gaussian elimination.
+Find the eigenvalues of a matrix.
+Compute the indefinite integral of a rational function.
+Solve for the unknown in a trigonometric equation.
+Find the roots of a cubic equation.
+Determine the distance between two points in a three-dimensional space.
+Calculate the mean and variance of a set of data points.
+Determine the value of a definite integral for a given function.
+Solve a word problem involving proportional relationships.
+Calculate the area of a triangle using Heron’s formula.
+Find the volume of a cone.
+Determine the slope of a tangent line to a curve at a specific point.
+Solve a problem involving the chain rule in differentiation.
+Find the limit of a sequence as it approaches infinity.
+Calculate the derivative of a function using first principles.
+Solve a problem involving probability and combinatorics.
+Find the period of a sine or cosine function.
+Calculate the distance traveled by an object moving with constant acceleration.
+Determine the amplitude and phase shift of a sine wave.
+Solve for the x-intercepts of a quadratic function.
+Find the integral of a piecewise function.
+Calculate the sum of an infinite geometric series.
+Determine the area of a circle given its radius.
+Solve for the missing angle in a right triangle using trigonometry.
+Calculate the surface area of a cylinder.
+Find the centroid of a triangle given its vertices.
+Determine the formula for the nth term in an arithmetic progression.
+Solve for the hypotenuse of a right triangle using Pythagoras’ theorem.
+Find the probability of drawing a red card from a deck of cards.
+Calculate the change in kinetic energy of an object.
+Find the surface area of a sphere.
+Determine the range of a function.
+Find the volume of a sphere given its radius.
+Solve a problem involving conditional probability.
+Find the intersection points of two curves.
+Determine the sum of the interior angles of a polygon.
+Solve a problem involving permutations and combinations.
+Find the value of 
+𝑥
+x in a logarithmic equation.
+Calculate the area of a sector of a circle.
+Determine the derivative of a trigonometric function.
+Solve a system of linear inequalities.
+Find the inverse of a function.
+Calculate the sum of the first 
+𝑛
+n squares.
+Determine the critical points of a function.
+Find the area of a quadrilateral given its diagonals.
+Solve for the angle between two vectors in a plane.
+Determine the volume of a pyramid.
+Find the midpoint of a line segment given its endpoints.
+Solve for the unknown in an exponential equation.
+Find the determinant of a 3x3 matrix.
+Solve for the radius of a circle given its circumference.
+Determine the derivative of a product of two functions.
+Find the number of solutions to a system of nonlinear equations.
+Calculate the area of a trapezoid given its parallel sides and height.
+Find the value of an angle in an equilateral triangle.
+Determine the velocity of an object in motion at a given time.
+Solve for the length of an arc in a circle.
+Find the intersection of a line and a parabola.
+Determine the sum of the first 
+𝑛
+n even integers.
+Calculate the volume of a cone with a slant height.
+Find the derivative of an exponential function.
+Solve a problem involving vector addition and subtraction.
+Determine the probability of getting exactly 3 heads in 5 coin flips.
+Calculate the area of a sector in a circle given the central angle.
+Find the radius of a circle inscribed in a square.
+Determine the number of possible arrangements of objects with repetitions.
+Solve for the height of a cone using trigonometry.
+Calculate the arc length of a curve between two points.
+Find the gradient of a line passing through two given points.
+Determine the angle between two lines in a coordinate plane.
+Calculate the surface area of a rectangular prism.
+Solve a quadratic inequality and graph its solution.
+Find the volume of a torus formed by rotating a circle.
+Determine the centroid of a trapezoid.
+Calculate the discriminant of a quadratic equation.
+Solve for the value of an angle using the sine rule.
+Find the equation of a circle given its center and radius.
+Calculate the sum of the angles in a polygon with 
+𝑛
+n sides.
+Determine the value of a definite integral using substitution.
+Find the length of the diagonal of a rectangle.
+Solve for the unknown in a rational expression.
+Calculate the rate of change of a function.
+Find the sum of the first 
+𝑛
+n terms in a geometric series.
+Determine the frequency of a sinusoidal wave.
+Solve for the time period of a pendulum.
+Calculate the volume of a cone using integration.
+Determine the number of ways to choose 3 objects from 10.
+Find the equation of a line given its slope and a point on it.
+Solve for the roots of a quartic equation.
+Determine the perimeter of a rectangle given its length and width.
+Calculate the total work done by a force over a distance.
+Find the area of a rhombus given its diagonals.
+Determine the rate of change of the area of a circle with respect to its radius.
+Calculate the volume of a cylinder with a known radius and height.
+Solve for the unknown in an exponential growth equation.
+Find the coordinates of the vertex of a parabola.
+Determine the minimum and maximum values of a quadratic function.
+Solve for the inverse of a 2x2 matrix.
+Calculate the arc length of a circle sector.
+Find the surface area of a cone.
+Determine the probability of drawing a specific card from a deck of cards.
+Solve a problem involving the law of cosines.
+Find the volume of a cylinder given its radius and height.
+Calculate the derivative of a function at a specific point.
+Solve for the unknown in a logarithmic function.
+Find the area of a parallelogram given its base and height.
+Determine the solution to a differential equation.
+Solve for the unknown in a trigonometric identity.
+Calculate the volume of a pyramid with a square base.
+Find the critical points of a multivariable function.
+Determine the sum of the first 
+𝑛
+n terms in a harmonic series.
+Calculate the area of an ellipse given its semi-major and semi-minor axes.
+Find the eigenvectors of a matrix.
+Determine the probability of getting at least one head in 5 coin flips.
+Solve for the unknown in an arithmetic progression.
+Find the center and radius of a circle given its equation.
+Calculate the derivative of a rational function.
+Determine the rate of change of a function using the difference quotient.
+Find the area of a sector of a circle using radians.
+Solve for the unknown in a system of nonlinear equations.
+Determine the value of the tangent of an angle in a right triangle.
+Calculate the volume of a sphere using its radius.
+Find the moment of inertia of a rotating object.
+Determine the derivative of a logarithmic function.
+Solve for the distance traveled by an object with constant velocity.
+Calculate the area of a rhomboid given its sides and angles.
+Find the equation of a line given two points.
+Solve for the angle between two vectors using the dot product.
+Determine the equation of a circle passing through three points.
+Find the area of a regular polygon with 
+𝑛
+n sides.
+Determine the volume of a tetrahedron.
+Solve for the unknown in a system of linear equations using substitution.
+Calculate the perimeter of an ellipse.
+Find the angle of elevation of a building based on trigonometric functions.
+Solve for the amplitude of a sinusoidal function.
+Calculate the distance between two points in a three-dimensional space.
+Find the area of a regular hexagon given its side length.
+Determine the surface area of a cube.
+Solve for the unknown in a trigonometric equation with multiple solutions.
+Calculate the volume of a rectangular prism.
+Find the sum of the first 
+𝑛
+n odd integers.
+Determine the derivative of an inverse trigonometric function.
+Solve for the unknown in a polynomial equation.
+Calculate the area of a sector using central angle and radius.
+Find the value of a function at a given point.
+Solve for the unknown in an inequality involving absolute value.
+Calculate the probability of drawing two cards of the same suit.
+Determine the distance between a point and a line.
+Find the surface area of a triangular prism.
+Solve for the unknown in a rational equation.
+Calculate the acceleration of an object moving along a straight path.
+Find the derivative of a piecewise function.
+Determine the volume of a solid of revolution using integration.
+Solve for the number of ways to arrange 
+𝑛
+n objects in a line.
+Find the tangent to a curve at a specific point.
+Solve for the inverse of a function using algebraic methods.
+Determine the probability of selecting a red ball from a bag of mixed balls.
+Calculate the slope of a line given two points.
+Solve for the unknown in a system of equations involving exponential terms.
+Find the area of a trapezoid using the lengths of its sides.
+Determine the total surface area of a sphere.
+Solve for the unknown in a system of equations with three variables.
+Calculate the volume of a cone using its radius and height.
+Find the area of a triangle using its base and height.
+Solve for the roots of a quartic equation using factoring.
+Determine the gradient of a surface in three-dimensional space.
+Calculate the derivative of a composite function.
+Find the area of a region bounded by a curve and the x-axis.
+Solve for the volume of a prism given its base area and height.
+Determine the rate of change of a function at a specific point.
+Calculate the expected value of a random variable.
+Find the surface area of a sphere given its radius.
+Determine the volume of a frustum of a cone.
+Solve for the unknown in an equation involving both trigonometric and exponential terms.
+Calculate the centroid of a region bounded by two curves.
+Find the length of a side of a regular polygon given its perimeter.
+Solve for the unknown in a logarithmic equation involving a base other than 10.
+Determine the area of a sector using its central angle and radius.
+Calculate the volume of a solid formed by rotating a function about the x-axis.
+Find the equation of a line that is parallel to a given line and passes through a point.
+Determine the probability of drawing a specific sequence of cards from a deck.
+Calculate the slope of the line connecting two points on a curve.
+Solve for the volume of a cone given its slant height.
+Find the intersection of two lines given their equations.
+Determine the equation of a line given the slope and a point.
+Solve for the unknown in a system of equations involving absolute value.
+Calculate the area of a sector of a circle using its central angle and radius.
+Find the derivative of a function defined implicitly.
+Solve for the value of 
+𝑥
+x in an exponential growth equation.
+Determine the radius of a circle inscribed in a square.
+Calculate the sum of the squares of the first 
+𝑛
+n integers.
+Find the perimeter of a triangle given its side lengths.
+Determine the area of a region enclosed by a curve and a line.
+Solve for the unknown in a geometric progression.
+Find the volume of a solid obtained by rotating a region around the y-axis.
+Calculate the length of a diagonal of a cuboid.
+Determine the rate of change of a quantity in an exponential decay model.
+Solve for the unknown in a quadratic equation with complex roots.
+Calculate the area of a sector of a circle given its radius and central angle.
+Find the derivative of the sum of two functions.
+Solve for the unknown in a system of equations involving logarithmic functions.
+Determine the probability of drawing at least one red card from a deck.
+Calculate the volume of a cylinder given its radius and height.
+Solve for the unknown in a trigonometric identity involving sine and cosine.
+Determine the critical points of a multivariable function.
+Find the inverse of a matrix using row operations.
+Solve for the area of a polygon using its vertices.
+Calculate the rate of change of the area of a circle with respect to its radius.
+Find the determinant of a 3x3 matrix.
+Determine the sum of an infinite geometric series.
+Solve for the unknown in an equation involving trigonometric functions and exponents.
+Calculate the volume of a sphere using its radius.
+Find the total surface area of a cylinder.
+Determine the equation of a line tangent to a curve at a point.
+Solve for the unknown in a system of equations involving trigonometric and logarithmic functions.
+Find the area of a rhombus using its diagonals.
+Determine the probability of drawing two cards with the same rank from a deck.
+Calculate the volume of a prism with a triangular base.
+Solve for the unknown in a system of equations involving quadratic terms.
+Find the roots of a polynomial equation using synthetic division.
+Determine the sum of the interior angles of a polygon with 
+𝑛
+n sides.
+Solve for the distance between two points in three-dimensional space using the distance formula.
+Calculate the area of a triangle using Heron’s formula.
+Find the length of a curve given its parametric equations.
+Determine the limit of a function as it approaches infinity.
+Calculate the derivative of an exponential function.
+Solve for the unknown in an equation involving logarithmic and trigonometric terms.
+Find the area of a sector given the angle and radius.
+Determine the probability of getting exactly three heads in five coin flips.
+Calculate the sum of the first 
+𝑛
+n squares of integers.
+Find the volume of a cone using the Pythagorean theorem.
+Solve for the unknown in a logarithmic equation with a base of 2.
+Determine the radius of a circle given its area.
+Calculate the derivative of a trigonometric function.
+Find the slope of a line parallel to another line.
+Solve for the unknown in a rational equation with a square root.
+Determine the equation of a circle with a given center and radius.
+Calculate the surface area of a rectangular prism.
+Find the critical points of a function defined by a piecewise function.
+Solve for the volume of a solid using the method of cylindrical shells.
+Determine the area of a rectangle inscribed in a circle.
+Solve for the unknown in an equation involving both trigonometric and algebraic terms.
+Find the area of a triangle given its three sides using Heron's formula.
+Calculate the rate of change of a quantity using the derivative.
+Determine the sum of the first 
+𝑛
+n even numbers.
+Find the distance between two points in two-dimensional space.
+Solve for the unknown in a system of equations involving matrix multiplication.
+Calculate the volume of a solid formed by rotating a function about the y-axis.
+Determine the centroid of a triangle given its vertices.
+Solve for the unknown in a cubic equation.
+Calculate the surface area of a cone given its radius and slant height.
+Find the area of a circle inscribed in a square.
+Determine the perimeter of a rectangle given its length and width.
+Solve for the unknown in an equation involving absolute value and trigonometric functions.
+Calculate the length of the arc of a circle given its radius and central angle.
+Find the volume of a solid with known cross-sectional area.
+Solve for the unknown in an equation involving both logarithmic and exponential terms.
+Calculate the volume of a pyramid given its base area and height.
+Find the probability of drawing two balls of different colors from a box.
+Determine the area of a triangle given its base and height.
+Calculate the surface area of a hemisphere.
+Find the inverse of a trigonometric function.
+Solve for the unknown in an equation involving a sum of squares.
+Determine the rate of change of a quantity in a logistic growth model.
+Calculate the volume of a solid bounded by two curves.
+Find the maximum value of a function given its derivative.
+Solve for the unknown in an equation involving multiple variables.
+Determine the surface area of a rectangular prism given its dimensions.
+Calculate the perimeter of a regular polygon given its side length and number of sides.
+Solve for the unknown in a quadratic equation with real and distinct roots.
+Find the volume of a solid formed by rotating a region about the x-axis.
+Determine the probability of drawing a specific combination of cards from a deck.
+Calculate the surface area of a spherical cap.
+Solve for the unknown in a system of nonlinear equations.
+Find the area of a triangle using its vertices.
+Determine the perimeter of a circle using its radius.
+Solve for the unknown in a system of equations involving both trigonometric and algebraic terms.
+Calculate the sum of the first 
+𝑛
+n even squares.
+Find the length of the major axis of an ellipse.
+Determine the number of ways to arrange 
+𝑛
+n objects in a circle.
+Solve for the unknown in an equation involving trigonometric functions and polynomials.
+Find the surface area of a sphere inscribed in a cube.
+Calculate the volume of a frustum of a cone using the radii of its circular ends.
+Determine the sum of the first 
+𝑛
+n cubes of integers.
+Solve for the unknown in an equation involving a sum of cubes.
+Find the total surface area of a cylinder given its radius and height.
+Calculate the distance between two points in polar coordinates.
+Solve for the unknown in a system of equations involving logarithmic and exponential terms.
+Determine the equation of a parabola given its vertex and focus.
+Find the centroid of a polygon using its vertices.
+Calculate the surface area of a cone with a slanted height.
+Determine the probability of selecting a number divisible by 5 from a set.
+Solve for the unknown in a rational equation involving exponents.
+Find the area of a circle given its radius using the formula 
+Solve for the unknown in a system of linear equations involving three variables.
+Calculate the derivative of a polynomial function.
+Find the volume of a cone with a given radius and height.
+Determine the equation of a line given two points on the line.
+Calculate the area of a sector of a circle using the formula 
+𝜃
+360
+×
+𝜋
+𝑟
+2
+360
+θ
+​
+ ×πr 
+2
+ .
+Solve for the unknown in a cubic equation with real roots.
+Find the slope of a line passing through two given points.
+Determine the surface area of a square pyramid given its slant height and base edge length.
+Solve for the unknown in an equation involving rational expressions.
+Calculate the sum of the first 
+𝑛
+n odd integers.
+Find the area of a parallelogram using the base and height.
+Solve for the unknown in a system of equations with quadratic terms.
+Calculate the volume of a sphere using the formula 
+4
+3
+𝜋
+𝑟
+3
+3
+4
+​
+ πr 
+3
+ .
+Determine the perimeter of an equilateral triangle given its side length.
+Find the derivative of a composite function using the chain rule.
+Solve for the unknown in a system of equations with trigonometric functions.
+Calculate the distance between two points in three-dimensional space using the distance formula.
+Find the area of an ellipse using the formula 
+𝜋
+×
+𝑎
+×
+𝑏
+π×a×b, where 
+𝑎
+a and 
+𝑏
+b are the semi-major and semi-minor axes.
+Solve for the unknown in a logarithmic equation involving a base other than 10.
+Determine the volume of a cylinder given its radius and height.
+Calculate the surface area of a rectangular prism given its length, width, and height.
+Find the rate of change of a function at a given point using the derivative.
+Solve for the unknown in an equation involving absolute value functions.
+Calculate the area of a triangle using the formula 
+
+​
+ ×base×height.
+Determine the sum of the interior angles of a polygon with 
+𝑛
+n sides.
+Find the roots of a quadratic equation using the quadratic formula.
+Calculate the surface area of a hemisphere.
+Solve for the unknown in a trigonometric equation involving sine and cosine.
+Find the area of a triangle using the formula 
+
+1
+​
+ ×side1×side2×sin(θ).
+Determine the volume of a rectangular prism given its length, width, and height.
+Calculate the sum of an arithmetic series.
+Solve for the unknown in a system of equations with polynomial terms.
+Find the equation of a circle given its center and radius.
+Determine the rate of change of the area of a circle with respect to its radius.
+Calculate the volume of a frustum of a cone using the formula 
+
+Solve for the unknown in an equation involving both quadratic and linear terms.
+Find the distance between two points on a plane using the distance formula.
+Calculate the area of a sector of a circle using the formula 
+𝜃
+360
+×
+𝜋
+𝑟
+2
+360
+θ
+​
+ ×πr 
+2
+ .
+Solve for the unknown in an equation involving a sum of squares.
+Determine the volume of a pyramid using the formula 
+𝑉
+=
+1
+3
+×
+Base Area
+×
+Height
+V= 
+3
+1
+​
+ ×Base Area×Height.
+Calculate the surface area of a sphere using the formula 
+4
+𝜋
+𝑟
+2
+4πr 
+2
+ .
+Solve for the unknown in an equation involving both square roots and exponents.
+Find the derivative of a function using the quotient rule.
+Determine the probability of drawing a specific number from a deck of cards.
+Calculate the area of a trapezoid given its bases and height.
+Solve for the unknown in an equation involving both logarithmic and exponential terms.
+Find the volume of a solid with a known cross-sectional area and height.
+Determine the surface area of a triangular prism.
+Calculate the sum of the first 
+𝑛
+n prime numbers.
+Solve for the unknown in an equation involving a sum of cubes.
+Find the volume of a hemisphere given its radius.
+Determine the length of the diagonal of a square.
+Calculate the rate of change of the volume of a cube with respect to its side length.
+Solve for the unknown in a trigonometric equation involving tangent and secant functions.
+Find the area of a sector of a circle using the central angle and radius.
+Determine the perimeter of an equilateral triangle using its side length.
+Calculate the volume of a solid formed by rotating a function about the x-axis.
+Solve for the unknown in an equation involving a difference of squares.
+Find the surface area of a cube given its side length.
+Calculate the area of a right triangle using the base and height.
+Solve for the unknown in a system of equations with logarithmic and exponential terms.
+Find the derivative of a function using the product rule.
+Determine the volume of a sphere given its radius.
+Calculate the sum of the first 
+𝑛
+n Fibonacci numbers.
+Solve for the unknown in an equation involving rational expressions and square roots.
+Find the perimeter of a rectangle using its length and width.
+Determine the sum of the first 
+𝑛
+n integers divisible by 3.
+Solve for the unknown in a system of equations involving matrices.
+Find the equation of a parabola given its vertex and focus.
+Calculate the surface area of a triangular pyramid.
+Solve for the unknown in an equation involving absolute value and logarithmic terms.
+Determine the volume of a solid with known height and cross-sectional area.
+Calculate the surface area of a cone using its radius and slant height.
+Solve for the unknown in an equation involving square roots and polynomials.
+Find the area of a rhombus given its diagonals.
+Determine the probability of drawing a red card from a deck of cards.
+Calculate the perimeter of a triangle given its side lengths.
+Solve for the unknown in a trigonometric equation involving sine, cosine, and tangent.
+Find the area of a rectangle given its length and width.
+Determine the volume of a solid obtained by rotating a region around a line.
+Calculate the derivative of a trigonometric function using the chain rule.
+Solve for the unknown in a system of equations involving exponential functions.
+Find the area of a circle inscribed in a square.
+Determine the total surface area of a cone given its radius and height.
+Calculate the volume of a frustum of a cone with different radii.
+Solve for the unknown in a system of equations involving both quadratic and trigonometric terms.
+Find the sum of the first 
+𝑛
+n squares of integers.
+Determine the equation of a line parallel to another line given a point on the line.
+Solve for the unknown in a logarithmic equation with a base of 
+𝑒
+e.
+Calculate the surface area of a rectangular prism with known dimensions.
+Find the length of the diagonal of a rectangle given its length and width.
+Solve for the unknown in an equation involving trigonometric and exponential functions.
+Determine the perimeter of a square given its side length.
+Calculate the volume of a solid formed by rotating a region around the y-axis.
+Solve for the unknown in an equation involving multiple logarithms.
+Find the area of a rhombus using its diagonals.
+Determine the surface area of a square pyramid using its slant height and base edge length.
+Calculate the volume of a cone given its radius and height.
+Solve for the unknown in a system of equations with nonlinear terms.
+Find the critical points of a function and determine if they correspond to a local minimum or maximum.
+Calculate the derivative of a function using implicit differentiation.
+Solve for the unknown in a system of linear equations with fractional coefficients.
+Determine the volume of a sphere inscribed in a cube.
+Find the equation of a line passing through a given point and perpendicular to a given line.
+Solve for the unknown in a quadratic inequality.
+Calculate the sum of an infinite geometric series.
+Find the roots of a cubic equation.
+Determine the probability of getting a sum of 7 when rolling two dice.
+Calculate the area of a right triangle using the Pythagorean theorem.
+Solve for the unknown in an equation involving cube roots.
+Find the volume of a cone with a given height and radius.
+Determine the derivative of a rational function.
+Calculate the surface area of a cylinder.
+Solve for the unknown in a system of equations with mixed variables.
+Find the area of a rectangle inscribed in a circle.
+Determine the volume of a cube given its side length.
+Solve for the unknown in an equation involving both rational and exponential terms.
+Calculate the surface area of a pyramid with a square base.
+Find the angle between two vectors in three-dimensional space.
+Solve for the unknown in a logarithmic equation involving base 
+𝑒
+e.
+Calculate the sum of the interior angles of a hexagon.
+Solve for the unknown in an equation involving a difference of cubes.
+Determine the volume of a truncated cone.
+Find the derivative of an exponential function.
+Solve for the unknown in a system of equations involving inverse functions.
+Calculate the perimeter of a polygon given the side lengths.
+Find the area of a sector using the angle and radius.
+Solve for the unknown in a trigonometric equation involving multiple angles.
+Calculate the volume of a pyramid with a triangular base.
+Determine the rate of change of the area of a rectangle with respect to its side lengths.
+Find the roots of a quartic equation.
+Solve for the unknown in a system of equations involving trigonometric identities.
+Calculate the surface area of a right cone with a given radius and slant height.
+Solve for the unknown in an equation involving a combination of square roots and rational functions.
+Determine the area of a parallelogram using its diagonals.
+Find the volume of a cylinder with a given radius and height.
+Solve for the unknown in an equation involving absolute value and trigonometric functions.
+Calculate the surface area of a spherical cap.
+Find the perimeter of a rectangle given its diagonal and one side length.
+Solve for the unknown in a logarithmic equation involving different bases.
+Calculate the area of a triangle using Heron’s formula.
+Find the surface area of a hemisphere with a given radius.
+Determine the volume of a solid with known base area and height.
+Solve for the unknown in an equation involving sine and cosine functions.
+Calculate the sum of the first 
+𝑛
+n even integers.
+Find the area of a parallelogram using the formula 
+𝐴
+=
+𝑎
+𝑏
+sin
+⁡
+(
+𝜃
+)
+A=absin(θ).
+Solve for the unknown in an equation involving both logarithmic and trigonometric functions.
+Calculate the perimeter of a regular polygon with known side length and number of sides.
+Find the area of a rectangle given its diagonal and one side.
+Determine the volume of a cone with a known slant height and radius.
+Solve for the unknown in a system of linear equations involving matrices.
+Find the rate of change of the volume of a sphere with respect to its radius.
+Calculate the area of a sector with a central angle of 
+4
+5
+∘
+45 
+∘
+ .
+Solve for the unknown in an equation involving a sum of cubes.
+Find the perimeter of a triangle using Heron’s formula.
+Determine the sum of the first 
+𝑛
+n perfect squares.
+Solve for the unknown in a system of equations involving rational and irrational terms.
+Calculate the surface area of a rectangular pyramid.
+Find the derivative of a logarithmic function.
+Solve for the unknown in an equation involving both trigonometric and logarithmic terms.
+Calculate the volume of a pyramid with a square base and given height.
+Find the area of a triangle using the law of sines.
+Solve for the unknown in an equation involving square roots and exponents.
+Calculate the sum of the first 
+𝑛
+n triangular numbers.
+Determine the perimeter of a regular hexagon.
+Solve for the unknown in a system of equations involving quadratic terms.
+Find the equation of a line tangent to a given curve at a given point.
+Calculate the volume of a cone given its slant height and radius.
+Solve for the unknown in an equation involving trigonometric functions of multiple angles.
+Determine the surface area of a cylinder given its radius and height.
+Find the area of a right triangle given the lengths of the two legs.
+Solve for the unknown in a system of equations with trigonometric terms.
+Calculate the area of a sector of a circle with a central angle of 
+6
+0
+∘
+60 
+∘
+ .
+Solve for the unknown in an equation involving a polynomial function.
+Find the volume of a cone with a height and radius given in terms of variables.
+Calculate the surface area of a cone given its radius and height.
+Solve for the unknown in an equation involving exponential growth or decay.
+Determine the perimeter of a rhombus given its diagonals.
+Find the volume of a cylinder using the formula 
+𝑉
+=
+𝜋
+𝑟
+2
+ℎ
+V=πr 
+2
+ h.
+Solve for the unknown in a system of equations with quadratic and linear terms.
+Calculate the area of a parallelogram given its base and height.
+Solve for the unknown in an equation involving trigonometric identities.
+Determine the rate of change of the perimeter of a square with respect to its side length.
+Find the sum of the squares of the first 
+𝑛
+n integers.
+Solve for the unknown in an equation involving a ratio of polynomials.
+Find the volume of a rectangular prism using its length, width, and height.
+Calculate the area of a circle inscribed in a square with known side length.
+Solve for the unknown in an equation involving both trigonometric and exponential terms.
+Determine the surface area of a cuboid.
+Calculate the perimeter of a rectangle using its side lengths.
+Solve for the unknown in an equation involving logarithms and exponents.
+Find the equation of a line given its slope and a point on the line.
+Calculate the volume of a cone with a given radius and height.
+Solve for the unknown in a system of linear equations involving two variables.
+Find the area of a circle given its radius.
+Determine the rate of change of the area of a square with respect to its side length.
+Solve for the unknown in an equation involving polynomial terms.
+Calculate the surface area of a cone using the slant height and radius.
+Find the derivative of a trigonometric function at a specific point.
+Solve for the unknown in a logarithmic equation involving a natural base.
+Solve for the unknown in an equation involving both trigonometric and logarithmic functions.
+Determine the surface area of a sphere given its radius.
+Find the roots of a quartic equation using factorization.
+Calculate the area of a triangle given its vertices' coordinates.
+Solve for the unknown in an equation involving square roots and rational numbers.
+Find the volume of a sphere given its radius.
+Determine the perimeter of a trapezoid given its bases and height.
+Solve for the unknown in a system of nonlinear equations.
+Calculate the area of an ellipse given its semi-major and semi-minor axes.
+Solve for the unknown in a logarithmic equation with base 10.
+Find the surface area of a cylinder given its radius and height.
+Determine the volume of a cone with a given slant height and radius.
+Solve for the unknown in a system of equations involving both exponential and logarithmic terms.
+Calculate the derivative of a trigonometric function involving multiple angles.
+Find the area of a regular pentagon given its side length.
+Solve for the unknown in a system of linear equations using Cramer's rule.
+Determine the volume of a cone with known height and base radius.
+Find the equation of the line that is parallel to a given line and passes through a specific point.
+Solve for the unknown in a rational equation involving square roots.
+Calculate the area of a rectangle inscribed in a circle using its diagonal.
+Find the rate of change of the perimeter of a rectangle with respect to its side lengths.
+Solve for the unknown in an equation involving trigonometric functions and logarithms.
+Determine the surface area of a pyramid with a rectangular base.
+Find the area of a sector given the central angle and radius.
+Solve for the unknown in a system of equations involving absolute value functions.
+Calculate the perimeter of a circle with a given radius.
+Find the equation of a line perpendicular to a given line passing through a specific point.
+Determine the volume of a pyramid with a square base.
+Solve for the unknown in an equation involving trigonometric and logarithmic terms.
+Calculate the surface area of a rectangular prism with known length, width, and height.
+Find the sum of the first 
+𝑛
+n odd integers.
+Solve for the unknown in an equation involving both sine and cosine functions.
+Determine the area of a triangle using the law of cosines.
+Find the volume of a sphere inscribed in a cube.
+Solve for the unknown in a system of equations involving polynomial terms.
+Calculate the area of a circle inscribed in a square using its side length.
+Solve for the unknown in an equation involving cube roots.
+Determine the perimeter of a regular octagon given its side length.
+Find the area of a trapezoid given its parallel sides and height.
+Solve for the unknown in a quadratic equation using the quadratic formula.
+Calculate the derivative of an exponential function.
+Find the sum of the first 
+𝑛
+n terms of an arithmetic series.
+Solve for the unknown in an equation involving absolute values and exponents.
+Determine the volume of a cylinder with known height and radius.
+Find the surface area of a sphere given its radius.
+Solve for the unknown in a system of equations involving quadratic and linear terms.
+Calculate the area of a sector of a circle using its radius and central angle.
+Find the volume of a rectangular prism given its dimensions.
+Determine the derivative of a polynomial function.
+Solve for the unknown in an equation involving a rational function.
+Calculate the perimeter of a polygon given its side lengths.
+Find the surface area of a cone with a known slant height and radius.
+Solve for the unknown in a system of linear equations with fractional coefficients.
+Determine the area of a parallelogram using the formula 
+𝐴
+=
+𝑎
+𝑏
+sin
+⁡
+(
+𝜃
+)
+A=absin(θ).
+Find the sum of the first 
+𝑛
+n even numbers.
+Solve for the unknown in an equation involving both exponential and logarithmic functions.
+Calculate the volume of a cone with known height and radius.
+Find the area of a right triangle given the lengths of its legs.
+Solve for the unknown in an equation involving multiple terms with exponents.
+Calculate the derivative of a function using the chain rule.
+Find the equation of a line passing through two given points.
+Solve for the unknown in a system of equations involving both linear and quadratic terms.
+Calculate the area of a triangle given two sides and the included angle.
+Find the volume of a cone using its radius and height.
+Determine the rate of change of the area of a square with respect to its side length.
+Solve for the unknown in a system of nonlinear equations involving square roots.
+Calculate the sum of an infinite geometric series with a common ratio less than 1.
+Find the perimeter of a triangle given its three side lengths.
+Solve for the unknown in an equation involving cube roots and exponents.
+Calculate the volume of a sphere using its radius.
+Find the area of a rectangle given its length and width.
+Solve for the unknown in an equation involving trigonometric functions of multiple angles.
+Determine the surface area of a pyramid with a triangular base.
+Find the equation of a line perpendicular to a given line and passing through a specific point.
+Solve for the unknown in an equation involving rational expressions.
+Calculate the surface area of a spherical cap.
+Find the sum of the first 
+𝑛
+n perfect cubes.
+Solve for the unknown in a system of equations involving both rational and exponential terms.
+Calculate the area of a parallelogram given its base and height.
+Find the volume of a pyramid with a triangular base.
+Solve for the unknown in a system of equations involving square roots and exponents.
+Calculate the surface area of a cylinder given its radius and height.
+Determine the volume of a sphere using its radius.
+Solve for the unknown in an equation involving both logarithmic and trigonometric terms.
+Find the rate of change of the area of a circle with respect to its radius.
+Calculate the perimeter of a regular polygon with 
+𝑛
+n sides.
+Solve for the unknown in a system of equations involving trigonometric identities.
+Find the volume of a cone with a known slant height and radius.
+Determine the surface area of a rectangular prism with known dimensions.
+Solve for the unknown in an equation involving a combination of square roots and rational terms.
+Find the sum of the first 
+𝑛
+n triangular numbers.
+Calculate the surface area of a right cone with a given radius and slant height.
+Solve for the unknown in an equation involving logarithmic terms and exponents.
+Find the perimeter of a rhombus given its diagonals.
+Determine the volume of a cylinder with a given height and radius.
+Solve for the unknown in an equation involving both logarithms and exponents.
+Find the area of a sector of a circle with a given radius and central angle.
+Solve for the unknown in a system of equations involving both exponential and logarithmic terms.
+Calculate the volume of a rectangular prism using its length, width, and height.
+Find the rate of change of the area of a square with respect to its side length.
+Solve for the unknown in an equation involving absolute values and trigonometric functions.
+Calculate the perimeter of a rectangle with given length and width.
+Find the area of a triangle using Heron's formula given the side lengths.
+Solve for the unknown in an equation involving both logarithmic and trigonometric terms.
+Determine the surface area of a sphere given its radius and surface area formula.
+Find the volume of a pyramid with a square base using its height and base area.
+Solve for the unknown in a quadratic equation with complex roots.
+Calculate the derivative of a function with respect to a given variable.
+Solve for the unknown in a logarithmic equation involving base 2.
+Determine the area of a regular hexagon given its side length.
+Solve for the unknown in an equation involving powers of variables.
+Find the perimeter of a regular polygon with known side length.
+Calculate the derivative of a trigonometric function with respect to its angle.
+Solve for the unknown in a cubic equation using factoring techniques.
+Determine the surface area of a cone given its radius and height.
+Find the volume of a rectangular prism with given length, width, and height.
+Solve for the unknown in a logarithmic equation with unknown exponents.
+Find the area of a triangle with known base and height.
+Determine the rate of change of a quadratic function with respect to time.
+Solve for the unknown in an equation involving powers and logarithms.
+Calculate the surface area of a cylinder given its radius and height.
+Find the volume of a cone with known radius and slant height.
+Determine the perimeter of an ellipse given its semi-major and semi-minor axes.
+Solve for the unknown in a system of linear equations involving both fractions and exponents.
+Calculate the sum of the first 
+𝑛
+n even squares.
+Find the volume of a sphere inscribed in a cube.
+Solve for the unknown in a system of equations involving trigonometric functions.
+Determine the area of a parallelogram given its base and height.
+Find the surface area of a hemisphere given its radius.
+Solve for the unknown in an equation involving both linear and quadratic terms.
+Calculate the volume of a cone given its height and radius.
+Find the rate of change of the area of a circle with respect to its radius.
+Determine the derivative of a function that involves both trigonometric and exponential terms.
+Solve for the unknown in an equation involving exponential and logarithmic terms.
+Find the area of a sector given the radius and central angle in radians.
+Determine the surface area of a rectangular prism given its length, width, and height.
+Solve for the unknown in an equation involving square roots and exponents.
+Find the perimeter of a rhombus using its diagonals.
+Calculate the sum of the first 
+𝑛
+n Fibonacci numbers.
+Solve for the unknown in a system of nonlinear equations.
+Determine the volume of a rectangular prism given its dimensions.
+Solve for the unknown in an equation involving trigonometric and exponential functions.
+Find the area of a triangle using the sine rule given two sides and the included angle.
+Solve for the unknown in an equation involving logarithms and rational expressions.
+Calculate the volume of a sphere given its radius.
+Find the derivative of a function involving powers and logarithms.
+Solve for the unknown in a system of linear equations with non-integer coefficients.
+Determine the perimeter of a trapezoid with known parallel sides.
+Find the sum of the first 
+𝑛
+n triangular numbers.
+Solve for the unknown in an equation involving square roots and rational functions.
+Calculate the area of a parallelogram using its diagonals and the angle between them.
+Determine the surface area of a pyramid with a square base given its slant height.
+Solve for the unknown in an equation involving trigonometric identities.
+Find the area of a rectangle inscribed in a circle using its diagonal.
+Determine the volume of a cylinder given its radius and height.
+Solve for the unknown in an equation involving powers of trigonometric functions.
+Find the perimeter of an equilateral triangle given its side length.
+Calculate the surface area of a cone with given radius and slant height.
+Solve for the unknown in a system of equations with fractional coefficients.
+Find the area of a circle inscribed in a square with a given side length.
+Determine the volume of a cone given its height and radius.
+Solve for the unknown in an equation involving both quadratic and cubic terms.
+Calculate the rate of change of a linear function with respect to its slope.
+Find the surface area of a sphere given its radius.
+Solve for the unknown in a logarithmic equation with a base of 10.
+Determine the volume of a sphere with a known radius.
+Solve for the unknown in a system of equations involving square roots and exponents.
+Calculate the area of a sector given its radius and central angle in degrees.
+Find the perimeter of a rectangle given its length and width.
+Solve for the unknown in a system of linear equations involving absolute values.
+Determine the derivative of a trigonometric function using the product rule.
+Find the volume of a sphere inscribed in a cube given the cube's side length.
+Solve for the unknown in an equation involving cube roots and exponents.
+Calculate the area of a triangle using the law of sines given two sides and an angle.
+Solve for the unknown in an equation involving both exponential and logarithmic terms.
+Find the surface area of a right circular cone given its radius and slant height.
+Solve for the unknown in a system of nonlinear equations involving trigonometric functions.
+Calculate the volume of a rectangular prism with known dimensions.
+Determine the area of a circle with a given radius.
+Find the surface area of a pyramid with a rectangular base.
+Solve for the unknown in a rational equation involving square roots.
+Find the sum of the first 
+𝑛
+n odd squares.
+Solve for the unknown in a system of equations involving both linear and quadratic terms.
+Determine the volume of a pyramid with a square base and height.
+Calculate the surface area of a hemisphere given its radius.
+Solve for the unknown in an equation involving absolute values and logarithmic terms.
+Find the area of a triangle with known vertices' coordinates.
+Determine the rate of change of the perimeter of a rectangle with respect to its side lengths.
+Solve for the unknown in a system of equations involving both linear and exponential terms.
+Calculate the perimeter of a circle with a given radius.
+Solve for the unknown in an equation involving logarithms and trigonometric functions.
+Find the volume of a cone with known height and radius.
+Solve for the unknown in a cubic equation with integer coefficients.
+Calculate the area of a circle inscribed in a square using the square's side length.
+Determine the surface area of a sphere given its radius.
+Solve for the unknown in a system of equations involving fractional terms.
+Find the sum of the first 
+𝑛
+n perfect squares.
+Solve for the unknown in an equation involving a combination of exponential and logarithmic terms.
+Calculate the area of a right triangle with known base and height.
+Determine the volume of a cone given its height and slant height.
+Solve for the unknown in a quadratic equation involving fractional coefficients.
+Find the area of a sector with a known radius and central angle.
+Solve for the unknown in an equation involving square roots and exponential terms.
+Determine the surface area of a rectangular prism with known length, width, and height.
+Calculate the derivative of a function involving trigonometric and exponential terms.
+Solve for the unknown in an equation involving both logarithmic and square root terms.
+Find the area of a triangle using the cosine rule with known sides and angles.
+Determine the volume of a cone with a known radius and height.
+Solve for the unknown in a system of equations involving both trigonometric and linear terms.
+Calculate the perimeter of an ellipse given its semi-major and semi-minor axes.
+Find the surface area of a cube given its side length.
+Determine the area of a parallelogram using its base and height.
+Solve for the unknown in an equation involving cube roots and logarithmic functions.
+Calculate the rate of change of the area of a circle with respect to its radius.
+Find the volume of a rectangular prism given its width, height, and depth.
+Solve for the unknown in a system of equations involving both trigonometric and logarithmic functions.
+Calculate the surface area of a cone with a given radius and slant height.
+Determine the perimeter of a rectangle given its length and width.
+Solve for the unknown in an equation involving a combination of quadratic and logarithmic terms.
+Find the volume of a cone with a known radius and slant height.
+Calculate the area of a square inscribed in a circle with a known radius.
+Solve for the unknown in an equation involving both square roots and trigonometric functions.
+Find the derivative of a function involving exponential terms and trigonometric functions.
+Determine the surface area of a sphere given its radius.
+Solve for the unknown in a system of equations involving logarithmic and fractional terms.
+Calculate the volume of a pyramid with a rectangular base given its height and base area.
+Find the area of a right-angled triangle using the Pythagorean theorem.
+Solve for the unknown in a quadratic equation with complex roots.
+Calculate the surface area of a cylinder with a known radius and height.
+Solve for the unknown in an equation involving logarithms and square roots.
+Determine the area of a sector of a circle given the central angle in radians.
+Find the volume of a sphere inscribed in a cube with a given side length.
+Solve for the unknown in a system of equations involving both trigonometric and quadratic terms.
+Calculate the sum of the first 
+𝑛
+n Fibonacci numbers.
+Solve for the unknown in an equation involving both trigonometric and exponential functions.
+Determine the surface area of a cone with known radius and height.
+Find the volume of a cone given its slant height and radius.
+Solve for the unknown in a system of equations involving exponential and logarithmic terms.
+Calculate the area of a rhombus given its diagonals.
+Determine the perimeter of a regular polygon given the number of sides and side length.
+Solve for the unknown in an equation involving trigonometric and algebraic functions.
+Find the surface area of a sphere using its radius.
+Calculate the volume of a cylinder using the formula involving its radius and height.
+Solve for the unknown in a system of equations involving both square roots and exponents.
+Determine the rate of change of a function involving logarithmic terms.
+Find the volume of a sphere using its radius.
+Calculate the area of a parallelogram using its base and height.
+Solve for the unknown in an equation involving both logarithms and cube roots.
+Find the derivative of a function involving a combination of powers and trigonometric terms.
+Determine the surface area of a rectangular prism with given dimensions.
+Calculate the volume of a cone with given height and radius.
+Solve for the unknown in a system of equations involving square roots and trigonometric functions.
+Find the area of a circle given its radius.
+Determine the perimeter of a rectangle with known side lengths.
+Solve for the unknown in an equation involving logarithms and powers of variables.
+Calculate the surface area of a cone given its radius and height.
+Solve for the unknown in a system of equations involving logarithms and square roots.
+Determine the volume of a pyramid with a square base and known height.
+Find the area of a regular polygon given the length of its side and the number of sides.
+Solve for the unknown in an equation involving powers of variables and trigonometric functions.
+Calculate the surface area of a cone using the formula for its slant height and radius.
+Find the perimeter of a right triangle using its side lengths.
+Solve for the unknown in an equation involving both logarithmic and trigonometric functions.
+Determine the volume of a rectangular prism with known dimensions.
+Solve for the unknown in an equation involving square roots and logarithmic functions.
+Calculate the area of a circle inscribed in a square with known side length.
+Solve for the unknown in a system of equations involving both square roots and logarithmic functions.
+Find the surface area of a pyramid with a triangular base and given height.
+Solve for the unknown in a quadratic equation with integer coefficients.
+Determine the volume of a sphere using its radius and the formula for volume.
+Calculate the area of a triangle using the base and height.
+Solve for the unknown in an equation involving both square roots and powers of variables.
+Find the surface area of a sphere with a given radius.
+Determine the perimeter of a rectangle using its length and width.
+Solve for the unknown in an equation involving logarithmic and exponential terms.
+Find the area of a sector of a circle using the formula for the radius and angle.
+Calculate the volume of a pyramid with a rectangular base given its height and dimensions.
+Solve for the unknown in a system of equations involving trigonometric functions and exponents.
+Find the surface area of a rectangular prism given its length, width, and height.
+Determine the volume of a cone using the formula for its height and radius.
+Solve for the unknown in an equation involving both logarithms and cube roots.
+Find the area of a triangle given its base and height.
+Solve for the unknown in an equation involving powers and square roots.
+Determine the volume of a sphere using its radius and the formula for volume.
+Solve for the unknown in a system of equations involving both square roots and trigonometric functions.
+Calculate the perimeter of a polygon given its side length and number of sides.
+Find the surface area of a cylinder with a known radius and height.
+Solve for the unknown in an equation involving both logarithms and square roots.
+Calculate the volume of a cone given its radius and height.
+Solve for the unknown in an equation involving powers and logarithmic terms.
+Find the area of a triangle using Heron’s formula given the lengths of the sides.
+Solve for the unknown in a system of equations involving powers of variables.
+Calculate the surface area of a cone using its radius and slant height.
+Determine the volume of a rectangular prism given its dimensions.
+Solve for the unknown in an equation involving square roots and logarithmic terms.
+Calculate the area of a circle with a given radius.
+Find the perimeter of a rectangle using its length and width.
+Solve for the unknown in an equation involving logarithms and powers of variables.
+Find the surface area of a sphere given its radius.
+Determine the volume of a sphere with a known radius.
+Solve for the variable in an equation with powers and constants.
+Find the solution for a variable when its square is greater than a specified value.
+If the sum of two consecutive integers is a constant, determine the values.
+Factor a quadratic equation with integer coefficients.
+Solve for an unknown in a system of linear equations with three variables.
+Expand and simplify the expression of a binomial raised to a higher power.
+Solve an equation where a variable is multiplied by a linear term and added to a constant.
+Find the product of two binomials expressed in terms of variables.
+Simplify the expression involving a sum of cubes.
+Solve for a variable in an equation with multiple terms involving fractions.
+Factorize a cubic equation where a constant term is included.
+Solve for the roots of a quadratic equation with irrational roots.
+Simplify the expression for a polynomial that includes fractional coefficients.
+Solve an equation that involves the product of two linear factors.
+Expand the product of a binomial and a trinomial.
+Simplify the expression by factoring both the numerator and denominator of a rational function.
+Solve for the unknown variable in an equation involving absolute values.
+Determine the sum of the roots of a polynomial equation with integer coefficients.
+Solve a system of equations where one of the variables is squared.
+Factor a polynomial expression where the highest degree is a cube.
+Determine the value of a variable in an equation involving square roots.
+Solve for a variable when the sum of squares of two variables is equal to a constant.
+Expand the expression for the sum of two squares of binomials.
+Simplify an expression that involves both a polynomial and a rational term.
+Solve for the variable in an equation involving an inverse relationship.
+Find the value of a variable in a proportion.
+Solve for the value of a variable in an equation that involves mixed terms.
+Simplify an expression with fractional exponents.
+Factor a polynomial expression with four terms.
+Determine the roots of a quartic equation.
+Solve for a variable in an equation involving square and cube roots.
+Find the value of a variable in an equation that includes logarithmic terms.
+Factorize an algebraic expression involving different degrees of the same variable.
+Simplify a rational function where both the numerator and denominator contain polynomials.
+Find the solution for a variable when the equation involves both linear and quadratic terms.
+Solve for a variable in a trigonometric equation involving polynomials.
+Find the value of a variable in a system of equations with both linear and quadratic terms.
+Factorize an algebraic expression that contains both squares and cubes.
+Solve an inequality involving linear terms and absolute values.
+Simplify a complex expression involving both logarithmic and exponential terms.
+Solve a system of inequalities.
+Determine the maximum value of a quadratic expression.
+Expand the product of a binomial and a trinomial with fractional terms.
+Simplify an equation that involves terms with both positive and negative exponents.
+Factor a quartic expression with rational coefficients.
+Solve for a variable in an equation with an unknown in the denominator.
+Determine the value of a variable in a rational equation.
+Simplify an algebraic expression involving a power raised to a fraction.
+Factor a polynomial of the form 
+𝑥
+𝑛
++
+𝑎
+x 
+n
+ +a.
+Find the solutions to a system of equations with one linear and one nonlinear equation.
+Expand and simplify a higher-degree binomial.
+Simplify the expression by eliminating the common factors in a rational equation.
+Solve an equation where a variable is multiplied by a polynomial and then added to another term.
+Find the roots of a quadratic equation where the leading coefficient is negative.
+Solve a problem involving the sum and difference of squares.
+Simplify an algebraic expression involving fractional powers.
+Solve for the variable in an equation that involves a product of square roots.
+Determine the sum of the cubes of two variables.
+Factor an algebraic expression involving two distinct variables.
+Simplify an algebraic expression involving the cube root of a polynomial.
+Find the solution to a system of equations that involves rational expressions.
+Solve an equation with variables in both the numerator and denominator.
+Simplify an algebraic expression by rationalizing the denominator.
+Determine the value of a variable in an equation with nested square roots.
+Factor a polynomial equation of degree five.
+Find the solution to an equation with terms involving logarithms and exponents.
+Solve for a variable in an equation that includes both trigonometric and algebraic terms.
+Simplify a complex rational function.
+Solve for the unknown in a polynomial equation involving fractional terms.
+Find the roots of a quadratic equation with fractional coefficients.
+Determine the value of a variable in an equation that involves both powers and roots.
+Solve a system of equations with one quadratic and one cubic equation.
+Factor a binomial where both terms involve powers of the same variable.
+Find the value of the variable in an equation that contains both square roots and cubes.
+Simplify an expression by factoring out a common factor from both terms.
+Solve for the unknown variable in an equation with mixed algebraic terms.
+Simplify a rational expression involving multiple fractions.
+Solve for the variable in an equation involving absolute value and linear terms.
+Factor an expression that contains both squares and cube roots.
+Find the solution to a system of equations that contains exponents and powers.
+Simplify the expression of a rational equation with multiple fractions.
+Solve an equation involving a sum of squares.
+Expand a polynomial that contains terms with fractional exponents.
+Solve a system of nonlinear equations.
+Simplify an expression where a rational function is divided by a polynomial.
+Factorize a higher-degree polynomial.
+Solve an equation that involves both linear terms and cube roots.
+Find the solution for an unknown in an equation with multiple unknowns.
+Simplify an equation by substituting a variable in place of a linear expression.
+Solve an equation that involves square and cube roots.
+Simplify a cubic equation with constant terms.
+Determine the value of a variable in a rational function.
+Expand the product of a binomial raised to a higher power.
+Factor a cubic polynomial with fractional coefficients.
+Solve for the variable in an equation involving powers and roots.
+Find the solution to a system of equations involving mixed algebraic terms.
+Simplify an expression involving both powers and logarithms.
+Factor a quartic polynomial where the coefficients are integers.
+Solve for the unknown in an equation involving exponents.
+Simplify a complex rational expression by combining like terms.
+Geometry (Extended to 100 questions)
+Calculate the perimeter of a rectangle given the length and width of the sides.
+Find the volume of a cylinder using its radius and height.
+Compute the surface area of a rectangular prism.
+Calculate the area of a regular polygon, given the length of a side and the number of sides.
+Find the length of a diagonal of a rectangle using the Pythagorean theorem.
+Determine the radius of a circle inscribed in a square.
+Find the area of an ellipse when the lengths of its axes are known.
+Compute the surface area of a cone using its radius and slant height.
+Determine the height of a pyramid given its volume and base area.
+Find the volume of a sphere given its radius.
+Find the area of a sector of a circle when the central angle is provided.
+Compute the perimeter of a triangle using its side lengths.
+Calculate the area of a triangle given the lengths of its sides.
+Find the volume of a rectangular prism when the dimensions are provided.
+Calculate the area of a trapezoid using its base lengths and height.
+Find the volume of a cone with a circular base.
+Compute the surface area of a cylinder with given dimensions.
+Calculate the area of a circle when its radius is known.
+Find the distance between two points on a coordinate plane using the distance formula.
+Calculate the surface area of a sphere using its radius.
+Determine the perimeter of an irregular polygon.
+Find the area of a parallelogram when the base and height are given.
+Compute the length of a side of a regular polygon with known area.
+Find the surface area of a pyramid with a rectangular base.
+Determine the volume of a pyramid using the area of the base and the height.
+Find the length of the diagonal of a square when the length of one side is known.
+Compute the volume of a sphere when its radius is provided.
+Calculate the area of a regular hexagon using the apothem and side length.
+Find the perimeter of an irregular quadrilateral given its side lengths.
+Calculate the surface area of a triangular prism.
+Determine the radius of a circle inscribed in a right triangle.
+Find the area of an isosceles triangle when the length of the base and the height are provided.
+Compute the volume of a cube when the side length is known.
+Find the area of a rhombus when the lengths of its diagonals are given.
+Determine the height of a triangle given the area and base length.
+Compute the area of a kite when the lengths of the diagonals are known.
+Calculate the volume of a cone with a known radius and height.
+Find the surface area of a cone when the radius and slant height are provided.
+Calculate the area of a circle segment when the central angle and radius are known.
+Determine the volume of a frustum of a cone with known radii and height.
+Find the length of the hypotenuse of a right triangle when the legs are known.
+Calculate the perimeter of a rectangle when the length and width are provided.
+Determine the area of an equilateral triangle when the side length is known.
+Compute the volume of a cylinder with a given radius and height.
+Find the area of a square when the length of one side is provided.
+Determine the surface area of a cube with known edge length.
+Find the height of a cone when the volume and radius are given.
+Calculate the area of a circle when the diameter is known.
+Find the surface area of a rectangular prism with provided dimensions.
+Determine the volume of a sphere when the radius is known.
+Compute the area of a regular octagon using the apothem.
+Find the perimeter of a right triangle when the legs are known.
+Calculate the area of a sector given the angle and radius.
+Determine the volume of a frustum of a pyramid.
+Find the radius of a sphere given its surface area.
+Calculate the perimeter of an equilateral triangle given the side length.
+Determine the area of a square given its diagonal.
+Find the volume of a rectangular prism given the lengths of all three sides.
+Compute the surface area of a square pyramid.
+Calculate the distance between two points in three-dimensional space.
+Find the volume of a cone with a given height and base radius.
+Determine the surface area of a right circular cone.
+Find the radius of a circle inscribed in a right triangle.
+Calculate the volume of a pyramid when the area of the base and height are known.
+Compute the surface area of a sphere with a given radius.
+Find the area of a parallelogram when the base and height are known.
+Determine the perimeter of a rhombus when the side length is provided.
+Calculate the area of an equilateral triangle given the side length.
+Compute the volume of a prism given the area of the base and the height.
+Find the surface area of a cylinder with a known radius and height.
+Determine the area of a trapezoid given the lengths of the parallel sides and height.
+Find the length of the diagonal of a rectangle with known side lengths.
+Calculate the perimeter of a regular polygon with known side length and number of sides.
+Determine the volume of a rectangular prism with specified dimensions.
+Find the surface area of a cone using its radius and slant height.
+Compute the area of a triangle when the base and height are known.
+Find the length of a diagonal of a square given the side length.
+Calculate the perimeter of a square when the side length is provided.
+Determine the volume of a cylinder with specified radius and height.
+Compute the surface area of a cylinder when the radius and height are provided.
+Calculate the area of an equilateral triangle given the length of the sides.
+Find the volume of a sphere when the radius is given.
+Determine the surface area of a prism with rectangular faces.
+Calculate the area of a sector with a given radius and central angle.
+Find the volume of a cone with a known radius and height.
+Compute the area of a regular polygon when the apothem and number of sides are provided.
+Determine the radius of a circle inscribed in a square.
+Calculate the surface area of a sphere with known radius.
+Find the perimeter of a rhombus when the side length is known.
+Compute the area of a parallelogram using the base and height.
+Calculate the distance between two points in two-dimensional space.
+Find the area of a trapezoid with known base lengths and height.
+Determine the volume of a rectangular prism when the length, width, and height are provided.
+Calculate the surface area of a square pyramid.
+Compute the area of a triangle given the lengths of the sides.
+Find the radius of a sphere given its surface area.
+Determine the perimeter of a regular polygon when the side length and number of sides are provided.
+Find the area of a square when the side length is given.
+Compute the volume of a frustum of a cone when the radii and height are known.
+Determine the surface area of a cone with known dimensions.
+What is the derivative of a polynomial function of degree four?
+How do you compute the integral of a cubic function over a given interval?
+What are the critical points of a cubic function?
+How do you determine the concavity of a given function?
+What is the second derivative of a quadratic function?
+How can you compute the limit of a trigonometric function as it approaches zero?
+What method would you use to integrate a polynomial function over a specified interval?
+What steps are involved in finding the concavity of a cubic function?
+How would you find the tangent line to a curve at a given point?
+What is the process of solving a differential equation involving polynomial terms?
+How can you evaluate the definite integral of a trigonometric function over an interval?
+What is the formula for the area under a quadratic curve between two points?
+How do you calculate the derivative of a logarithmic function?
+What is the procedure for solving a differential equation that includes exponential terms?
+How do you compute the volume of a solid formed by rotating a region around an axis?
+What steps do you follow to determine the limit of a rational function as 
+𝑥
+x approaches infinity?
+How do you find the first derivative of an exponential function?
+What is the integral of an exponential function with respect to its variable?
+How do you calculate the length of a curve for a given function over a specified range?
+How do you find the local extrema of a function?
+How do you compute the radius of convergence for a power series?
+What rule would you apply to differentiate a composite function?
+How do you solve an exponential equation for the variable?
+How would you calculate the area between two curves?
+What is the method for solving integrals involving trigonometric identities?
+How do you evaluate a limit that involves trigonometric expressions?
+What is the process for deriving the Taylor series of a function?
+How do you find the volume of a solid generated by rotating a function around an axis?
+What is the limit behavior of a function involving trigonometric terms near zero?
+How would you differentiate a rational function?
+How do you compute an integral involving a square root function?
+What is the formula for the volume of a sphere in terms of its radius?
+How would you apply L'Hopital's Rule to solve an indeterminate form involving logarithms?
+What method would you use to compute the arc length of a logarithmic function?
+How do you calculate the area enclosed by a curve and a line?
+How do you differentiate an inverse trigonometric function?
+What method is used to solve an integral involving trigonometric powers?
+How do you find the limit of a function involving square roots as 
+𝑥
+x approaches infinity?
+What technique would you use to compute the derivative of a rational function with complex terms?
+How do you find the average value of a continuous function over a given interval?
+How do you calculate the volume of a cylinder using calculus?
+What is the process for determining the derivative of a logarithmic-exponential combination?
+How do you evaluate a limit involving a square root expression as 
+𝑥
+x approaches zero?
+What is the integral of a rational function with respect to its variable?
+How do you solve a differential equation involving trigonometric functions?
+How do you calculate the surface area of a solid of revolution?
+How do you find the maximum and minimum values of a function over a given domain?
+What method would you apply to find the slope of a curve at a given point?
+How do you integrate a trigonometric function using substitution?
+How would you determine the convergence of an infinite series?
+What is the formula for finding the area between two curves?
+How do you compute the limit of a rational function involving trigonometric functions?
+How do you solve a definite integral involving a piecewise function?
+What steps are involved in finding the critical points of a function using its first derivative?
+How do you evaluate the sum of an infinite geometric series?
+What is the method for integrating a rational function by partial fractions?
+How do you calculate the average rate of change of a function over a given interval?
+What technique would you use to differentiate a function with multiple terms involving exponents?
+How do you find the area of a region bounded by curves in a polar coordinate system?
+How do you apply the mean value theorem to a function over a given interval?
+How do you compute the derivative of a function involving a composition of trigonometric functions?
+What is the formula for the volume of a cone using integral calculus?
+How would you compute the derivative of an implicit function?
+What is the process of solving a differential equation that models exponential growth?
+How do you integrate a function involving multiple trigonometric terms?
+How do you calculate the center of mass of a solid using calculus?
+How do you solve for the instantaneous velocity of an object using the derivative of its position function?
+What is the method for finding the global maximum and minimum of a function?
+How do you solve a definite integral involving a combination of functions?
+How do you differentiate an exponential function raised to a power?
+What steps are involved in solving a second-order differential equation?
+How do you compute the integral of a function involving a trigonometric identity?
+How do you apply the substitution method to integrate a complex function?
+What is the formula for finding the volume of a solid using cylindrical shells?
+How do you solve a differential equation that involves both exponential and trigonometric terms?
+How would you evaluate the limit of a logarithmic function at a point where the denominator approaches zero?
+How do you differentiate an implicit function involving logarithmic and exponential terms?
+How would you compute the derivative of a function with respect to a parameter?
+How do you determine the maximum volume of a solid formed by rotating a region?
+How do you calculate the arc length of a curve for a non-linear function?
+What is the formula for the surface area of a sphere in terms of its radius?
+How would you solve a differential equation that models harmonic motion?
+How do you find the volume of a solid of revolution using the disk method?
+What steps would you follow to solve an integral involving trigonometric substitution?
+How do you determine if a series converges absolutely or conditionally?
+What is the process for solving a second-order linear differential equation?
+How would you compute the derivative of a function that includes a logarithmic function of a polynomial?
+How do you calculate the surface area of a rotated parabola?
+What technique would you use to differentiate a function involving inverse trigonometric terms?
+How do you find the sum of the first 
+𝑛
+n terms of an arithmetic sequence using calculus?
+How do you solve a problem involving the volume of a region bounded by a surface?
+How do you compute the rate of change of a function at a given point?
+How do you determine the concavity of a function using the second derivative?
+What method would you use to calculate the derivative of a rational function involving trigonometric functions?
+How do you solve for the indefinite integral of an inverse trigonometric function?
+What steps do you follow to integrate a function involving a trigonometric identity and an exponential term?
+How do you compute the surface area of a solid defined by a function over a specific interval?
+What is the process of solving a differential equation involving exponential decay?
+How do you find the average value of a function over an interval using integration?
+How do you differentiate a function that involves a combination of power and exponential terms?
+Statistics Questions
+How do you calculate the mean of a set of data?
+What is the process for determining the median in a given data set?
+How would you calculate the standard deviation for a sample of data?
+What steps are involved in calculating the variance for a population?
+How do you interpret the results of a hypothesis test with a p-value less than 0.05?
+What is the difference between a sample and a population in statistics?
+How do you find the confidence interval for a population mean with a known standard deviation?
+What is the formula for calculating the z-score for a given data point?
+How do you determine the correlation coefficient between two variables?
+What is the procedure for conducting a chi-square test of independence?
+How do you calculate the probability of an event occurring in a given experiment?
+What is the role of a control group in a statistical experiment?
+How do you perform a t-test to compare the means of two independent samples?
+What is the significance of a 95% confidence interval in hypothesis testing?
+How would you interpret a negative correlation between two variables?
+What is the difference between Type I and Type II errors in hypothesis testing?
+How do you calculate the probability of two independent events occurring together?
+What is the formula for calculating the expected value of a discrete random variable?
+How do you find the margin of error for a confidence interval?
+What is the process for determining the best fit line in linear regression?
+How do you calculate the sample size needed to estimate a population parameter with a given confidence level?
+What is the purpose of a box plot in statistics?
+How do you interpret a p-value in the context of a statistical test?
+What is the difference between descriptive and inferential statistics?
+How do you calculate the coefficient of determination in linear regression?
+What is the formula for calculating the probability of events in a binomial distribution?
+How do you perform a one-way ANOVA to compare the means of more than two groups?
+What is the purpose of a scatter plot in exploring relationships between variables?
+How do you calculate the skewness of a data set?
+What is the role of the central limit theorem in statistical inference?
+How do you conduct a two-sample z-test for the difference between means?
+What steps are involved in calculating the standard error of the mean?
+How do you interpret the results of a regression analysis?
+How do you calculate the probability of a continuous random variable falling within a specified range?
+What is the formula for calculating the variance of a binomial distribution?
+How do you perform a paired sample t-test?
+How do you determine if a data set follows a normal distribution?
+What is the process for calculating the mean absolute deviation (MAD)?
+How do you calculate the 95% confidence interval for the proportion of successes in a population?
+What is the importance of random sampling in statistical studies?
+How do you calculate the correlation coefficient between two variables using Pearson's method?
+What steps do you follow to calculate the probability of a normally distributed variable?
+How do you calculate the expected value and variance for a continuous random variable?
+What is the process for determining whether two variables are independent in a statistical test?
+How do you calculate the interquartile range (IQR) for a given data set?
+What is the procedure for calculating the odds ratio in a case-control study?
+How do you interpret the R-squared value in a regression model?
+How would you calculate the mode of a given data set?
+What is the difference between a normal distribution and a uniform distribution?
+How do you calculate the probability of the complement of an event?
+How do you test the goodness of fit of an observed data set to a theoretical distribution?
+What is the formula for calculating the standard deviation of a sample in statistics?
+How do you calculate the probability density function (PDF) for a normal distribution?
+How do you perform a statistical test to compare proportions between two groups?
+What is the role of a null hypothesis in statistical testing?
+How do you calculate the range of a data set?
+What is the process for performing a multiple regression analysis?
+How do you interpret the results of a hypothesis test with a p-value greater than 0.05?
+How do you find the critical value for a z-test at a given significance level?
+What is the formula for calculating the sample variance in statistics?
+How do you interpret the confidence level in a confidence interval?
+What steps are involved in calculating the probability of a given event in a binomial experiment?
+How do you calculate the probability of an event in a normal distribution using the Z-table?
+What is the difference between correlation and causation in statistical analysis?
+How do you interpret a confidence interval that includes zero in a hypothesis test?
+How do you calculate the chi-square statistic for a contingency table?
+What is the process for calculating the probability mass function (PMF) for a discrete random variable?
+How do you find the median for a set of data with an odd number of observations?
+How do you compute the variance for a data set using the deviations from the mean?
+What steps do you follow to calculate the expected return in a financial model using statistics?
+How do you calculate the covariance between two variables?
+What is the purpose of a histogram in data analysis?
+How do you calculate the correlation matrix for multiple variables?
+How do you determine the sample size needed to estimate a population proportion with a given confidence level?
+How do you interpret the slope coefficient in a linear regression model?
+How do you perform a linear regression analysis to predict outcomes based on independent variables?
+How do you test for homogeneity of variances between multiple groups in ANOVA?
+What is the significance of the p-value in the context of a chi-square test?
+How do you calculate the standard error of the difference between two sample means?
+What is the process for interpreting the results of a t-test in the context of a business study?
+How do you calculate the sample mean for a given data set of observations?
+How do you determine the probability of a single event in a multinomial distribution?
+How do you compute the margin of error in a survey study using statistics?
+How do you calculate the standard deviation of a sample of data using a calculator?
+How do you interpret the results of a two-tailed hypothesis test for population proportions?
+How do you calculate the cumulative distribution function (CDF) for a normal distribution?
+How do you calculate the mean and variance for a uniform distribution?
+How do you compute the probability of a compound event using the addition rule?
+How do you perform a post-hoc analysis after conducting ANOVA?
+How do you find the probability of an event happening given the conditional probability?
+How do you calculate the coefficient of variation for a data set?
+How do you compute the sampling error when estimating a population parameter?
+What is the process for testing the difference between two population means using a t-test?
+How do you compute the probability of drawing a specific card from a deck?
+What is the formula for calculating the weighted mean of a data set?
+How do you find the confidence interval for the difference between two population means?
+How do you calculate the probability of a rare event using Poisson distribution?
+How do you perform a paired t-test to compare two related samples?
+How do you compute the expected number of successes in a binomial distribution?
+How do you perform a significance test for a regression model?

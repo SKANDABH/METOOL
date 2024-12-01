@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gesture Recognition with AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        /* Camera screen style */
+        .camera-screen {
+            position: absolute;
+            top: 10%;
+            left: 2%;
+            width: 70%;
+            height: 70%;
+            border: 2px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+<!--            background-color: #000;-->
+        }
+
+        /* Container for customization panels */
+        .controls-container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            position: absolute;
+            top: 15%;
+            left: 72%;
+            z-index: 2;
+        }
+
+        .controls-container h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        /* Color and brush size panel */
+        .customization-panel {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .color-picker, .brush-size {
+            display: inline-block;
+        }
+
+        /* Voice Command and AI Response */
+        .text-container {
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            padding: 20px;
+            width: 20%;
+        }
+
+        #voiceText, #aiResponse {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            margin-top: 10px;
+            min-height: 50px;
+            line-height: 1.5;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            overflow-wrap: break-word;
+            color: #333;
+        }
+
+        #aiResponse {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-top: 10px;
+    height: auto;  /* Automatically adjusts based on content */
+    min-height: 50px;  /* Minimum height */
+    max-height: 300px;  /* Optional: Maximum height to prevent overflow */
+    width: 100%;  /* Full width */
+    line-height: 1.5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;  /* Add scroll if content exceeds max-height */
+    color: #333;
+}
+
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .camera-screen {
+                width: 100%;
+                height: 50%;
+            }
+
+            .text-container {
+                position: relative;
+                width: 80%;
+                margin: auto;
+                top: auto;
+            }
+
+            .controls-container {
+                top: auto;
+                left: 5%;
+                width: 90%;
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Gesture Recognition with AI</h1>
+    <div>
+        <!-- Camera feed -->
+        <img src="{{ url_for('video_feed') }}" class="camera-screen" alt="Camera Feed">
+    </div>
+
+    <div class="controls-container">
+        <h3>Gesture Tool Customization</h3>
+        <div class="customization-panel">
+            <!-- Color picker -->
+            <div class="color-picker">
+                <label for="color">Color: </label>
+                <input type="color" id="color" name="color" value="#ff0000" onchange="updateGestureTool()" aria-label="Select brush color">
+            </div>
+
+            <!-- Brush size picker -->
+            <div class="brush-size">
+                <label for="brushSize">Brush Size: </label>
+                <input type="range" id="brushSize" name="brushSize" min="1" max="10" value="5" onchange="updateGestureTool()" aria-label="Select brush size">
+            </div>
+        </div>
+    </div>
+
+    <!-- Text display for voice commands and AI responses -->
+    <div class="text-container">
+        <h3>AI Response:</h3>
+        <p id="aiResponse">Awaiting response...</p>
+    </div>
+
+    <script>
+        // Debounce utility function
+        let debounceTimer;
+        function debounce(func, delay) {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(func, delay);
+        }
+
+        // Fetch and update voice command and AI response
+        async function updateText() {
+            try {
+                const response = await fetch('/get_voice_input');
+                const data = await response.json();
+                document.getElementById('aiResponse').innerText = data.ai_response || "No response received.";
+            } catch (error) {
+                console.error("Error fetching AI response:", error);
+                document.getElementById('aiResponse').innerText = "Error retrieving response.";
+            }
+        }
+
+        // Update gesture tool settings
+        function updateGestureTool() {
+            const color = document.getElementById('color').value;
+            const brushSize = document.getElementById('brushSize').value;
+
+            // Visual feedback for selected settings
+            document.getElementById('color').style.borderColor = color;
+            document.getElementById('brushSize').style.boxShadow = `0 0 5px ${color}`;
+
+            // Send the updated settings to the server
+            fetch('/update_tool_settings', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    color: color,
+                    brush_size: brushSize
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log("Gesture tool updated:", data);
+            })
+            .catch(error => {
+                console.error("Error updating gesture tool:", error);
+            });
+        }
+
+        // Periodic update of text with debounce
+        setInterval(() => debounce(updateText, 200), 2000);
+    </script>
+</body>
+</html>
