@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerPoint Voice Control</title>
+</head>
+<body>
+    <h1>Upload a PowerPoint File</h1>
+<form id="uploadForm" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" id="ppt_file" />
+    <button type="submit">Upload</button>
+</form>
+
+
+
+
+<script>
+    document.getElementById('uploadForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        var fileInput = document.getElementById('ppt_file');
+        var formData = new FormData();
+        formData.append('file', fileInput.files[0]);
+
+        fetch('/upload', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+    });
+
+    // Voice Recognition Setup
+    let recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+    recognition.lang = 'en-US';
+    recognition.continuous = true;
+    recognition.interimResults = true;
+
+    recognition.onstart = function() {
+        console.log('Voice recognition started.');
+    };
+
+    recognition.onresult = function(event) {
+        let command = event.results[0][0].transcript;
+        console.log('Command received:', command);
+
+        // Send the command to control the PowerPoint presentation
+        fetch('/control/' + command, {
+            method: 'GET'
+        }).then(response => response.json()).then(data => console.log(data));
+    };
+
+    recognition.start();
+</script>
+
+</body>
+</html>

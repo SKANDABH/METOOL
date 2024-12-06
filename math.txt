@@ -720,33 +720,20 @@ Determine the surface area of a cylinder given its radius and height.
 Find the area of a right triangle given the lengths of the two legs.
 Solve for the unknown in a system of equations with trigonometric terms.
 Calculate the area of a sector of a circle with a central angle of 
-6
-0
-∘
-60 
-∘
- .
+
 Solve for the unknown in an equation involving a polynomial function.
 Find the volume of a cone with a height and radius given in terms of variables.
 Calculate the surface area of a cone given its radius and height.
 Solve for the unknown in an equation involving exponential growth or decay.
 Determine the perimeter of a rhombus given its diagonals.
 Find the volume of a cylinder using the formula 
-𝑉
-=
-𝜋
-𝑟
-2
-ℎ
-V=πr 
-2
- h.
+
 Solve for the unknown in a system of equations with quadratic and linear terms.
 Calculate the area of a parallelogram given its base and height.
 Solve for the unknown in an equation involving trigonometric identities.
 Determine the rate of change of the perimeter of a square with respect to its side length.
 Find the sum of the squares of the first 
-𝑛
+
 n integers.
 Solve for the unknown in an equation involving a ratio of polynomials.
 Find the volume of a rectangular prism using its length, width, and height.

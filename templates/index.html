@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gesture Recognition with AI</title>
     <style>
+        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -18,7 +19,7 @@
             color: #333;
         }
 
-        /* Camera screen style */
+        /* Camera Screen */
         .camera-screen {
             position: absolute;
             top: 10%;
@@ -27,10 +28,9 @@
             height: 70%;
             border: 2px solid #ccc;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-<!--            background-color: #000;-->
         }
 
-        /* Container for customization panels */
+        /* Controls Container */
         .controls-container {
             margin: 20px;
             padding: 20px;
@@ -49,7 +49,6 @@
             color: #333;
         }
 
-        /* Color and brush size panel */
         .customization-panel {
             display: flex;
             justify-content: space-between;
@@ -61,7 +60,7 @@
             display: inline-block;
         }
 
-        /* Voice Command and AI Response */
+        /* Text Container */
         .text-container {
             position: absolute;
             top: 50%;
@@ -70,7 +69,7 @@
             width: 20%;
         }
 
-        #voiceText, #aiResponse {
+        #aiResponse {
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #ccc;
@@ -79,26 +78,117 @@
             min-height: 50px;
             line-height: 1.5;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-            overflow-wrap: break-word;
+            overflow-y: auto;
             color: #333;
         }
 
-        #aiResponse {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    margin-top: 10px;
-    height: auto;  /* Automatically adjusts based on content */
-    min-height: 50px;  /* Minimum height */
-    max-height: 300px;  /* Optional: Maximum height to prevent overflow */
-    width: 100%;  /* Full width */
-    line-height: 1.5;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    overflow-y: auto;  /* Add scroll if content exceeds max-height */
-    color: #333;
+        /* Upload Form */
+        #uploadfm {
+            position: absolute;
+            top: 80%;
+            width: 100%;
+            text-align: center;
+        }
+
+        #toggle-voice {
+            position: absolute;
+            top: 2%;
+        }
+
+
+
+
+
+.container {
+position:absolute;
+left:85%;
+top:1%;
+    max-width: 80px;
+    margin: 20px auto;
+    text-align: center;
 }
 
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    padding: 20px;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 7px;
+    font-size: 17px;
+    color: #333;
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.gesture-list {
+    text-align: left;
+}
+
+.gesture-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gesture-list li {
+    margin: 10px 0;
+}
+
+.flag-toggle {
+    margin-top: 20px;
+}
+
+#flagToggleCheckbox {
+    margin-left: 10px;
+}
+
+#flagStatusText {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#flagStatusText.enabled {
+    color: green;
+}
+
+#flagStatusText.disabled {
+    color: red;
+}
 
         /* Responsive Design */
         @media (max-width: 768px) {
@@ -107,103 +197,175 @@
                 height: 50%;
             }
 
-            .text-container {
+            .text-container, .controls-container {
                 position: relative;
-                width: 80%;
-                margin: auto;
-                top: auto;
-            }
-
-            .controls-container {
-                top: auto;
-                left: 5%;
                 width: 90%;
                 margin: auto;
+                top: auto;
             }
         }
     </style>
 </head>
 <body>
     <h1>Gesture Recognition with AI</h1>
-    <div>
-        <!-- Camera feed -->
-        <img src="{{ url_for('video_feed') }}" class="camera-screen" alt="Camera Feed">
-    </div>
 
+    <!-- Camera Feed -->
+    <img src="{{ url_for('video_feed') }}" class="camera-screen" alt="Camera Feed">
+
+    <!-- Gesture Tool Customization -->
     <div class="controls-container">
         <h3>Gesture Tool Customization</h3>
         <div class="customization-panel">
-            <!-- Color picker -->
             <div class="color-picker">
-                <label for="color">Color: </label>
-                <input type="color" id="color" name="color" value="#ff0000" onchange="updateGestureTool()" aria-label="Select brush color">
+                <label for="color">Color:</label>
+                <input type="color" id="color" value="#ff0000" onchange="updateGestureTool()">
             </div>
-
-            <!-- Brush size picker -->
             <div class="brush-size">
-                <label for="brushSize">Brush Size: </label>
-                <input type="range" id="brushSize" name="brushSize" min="1" max="10" value="5" onchange="updateGestureTool()" aria-label="Select brush size">
+                <label for="brushSize">Brush Size:</label>
+                <input type="range" id="brushSize" min="1" max="10" value="5" onchange="updateGestureTool()">
             </div>
         </div>
     </div>
 
-    <!-- Text display for voice commands and AI responses -->
+    <!-- AI Response -->
     <div class="text-container">
         <h3>AI Response:</h3>
         <p id="aiResponse">Awaiting response...</p>
     </div>
 
+    <!-- File Upload -->
+    <div id="uploadfm">
+        <h3>Upload a PowerPoint File Here👇🏼</h3>
+        <form id="uploadForm" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" id="ppt_file">
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+
+    <!-- Toggle Voice Button -->
+    <button id="toggle-voice">Enable/Disable Chalk Board Voice</button>
+ <div class="container">
+
+
+        <!-- Button to open popup -->
+        <button id="openPopupButton" onclick="openPopup()">Help</button>
+
+        <!-- Popup content -->
+        <div id="gesturePopup" class="popup">
+            <div class="popup-content">
+                <span id="closePopupButton" class="close-btn" onclick="closePopup()">&times;</span>
+                <h2 id="gestureHeader">Hand Gesture Symbols and Their Actions</h2>
+                <div id="gestureList" class="gesture-list">
+                    <ul>
+                        <li><strong id="gesture1">✌️</strong> - Remove Canvas</li>
+                        <li><strong id="gesture2">🖐️</strong> - Remove text on canvas</li>
+                        <li><strong id="gesture3">✋</strong> - To Draw on Canvas</li>
+                        <li><strong id="gesture4">👌</strong> - Accept the suggestion</li>
+                        <li><strong id="gesture5">🤟</strong> - Get AI Responce</li>
+                        <li><strong id="gesture6">🤙</strong> - Reject the suggestion</li>
+                    </ul>
+                    <h2 id="gestureHeader">Voice commands</h2>
+                      <ul>
+                          can you play
+                          search in wikipedia
+                        <li><strong id="cmd1"></strong> - Wake up Nova</li>
+                        <li><strong id="cmd2"></strong> - Open Notepad</li>
+                        <li><strong id="cmd3"></strong> - Open Calculator</li>
+                        <li><strong id="cmd4"></strong> - Open PowerPoint</li>
+                        <li><strong id="cmd5"></strong> - Get AI Responce</li>
+                        <li><strong id="cmd6"></strong> - Open Wikipedia</li>
+                          <li><strong id="cmd7"></strong> - can you search for</li>
+                          <li><strong id="cmd7"></strong> - can you play</li>
+                          <li><strong id="cmd7"></strong> - search in wikipedia</li>
+
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
     <script>
-        // Debounce utility function
-        let debounceTimer;
-        function debounce(func, delay) {
-            clearTimeout(debounceTimer);
-            debounceTimer = setTimeout(func, delay);
-        }
+        let flag = 0;
 
-        // Fetch and update voice command and AI response
-        async function updateText() {
-            try {
-                const response = await fetch('/get_voice_input');
-                const data = await response.json();
-                document.getElementById('aiResponse').innerText = data.ai_response || "No response received.";
-            } catch (error) {
-                console.error("Error fetching AI response:", error);
-                document.getElementById('aiResponse').innerText = "Error retrieving response.";
-            }
-        }
+        // Toggle Voice Functionality
+        document.getElementById('toggle-voice').addEventListener('click', function () {
+            flag = 1 - flag;
+            this.textContent = flag === 1 ? 'Disable Voice' : 'Enable Voice';
 
-        // Update gesture tool settings
+            fetch('/toggle_voice', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ flag: flag })
+            }).then(response => response.json())
+            .then(data => console.log(data.message))
+            .catch(error => console.error('Error:', error));
+        });
+
+        // Update Gesture Tool Settings
         function updateGestureTool() {
             const color = document.getElementById('color').value;
             const brushSize = document.getElementById('brushSize').value;
 
-            // Visual feedback for selected settings
-            document.getElementById('color').style.borderColor = color;
-            document.getElementById('brushSize').style.boxShadow = `0 0 5px ${color}`;
-
-            // Send the updated settings to the server
             fetch('/update_tool_settings', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    color: color,
-                    brush_size: brushSize
-                })
-            })
-            .then(response => response.json())
-            .then(data => {
-                console.log("Gesture tool updated:", data);
-            })
-            .catch(error => {
-                console.error("Error updating gesture tool:", error);
-            });
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ color, brush_size: brushSize })
+            }).then(response => response.json())
+            .then(data => console.log("Gesture tool updated:", data))
+            .catch(error => console.error("Error updating gesture tool:", error));
         }
 
-        // Periodic update of text with debounce
-        setInterval(() => debounce(updateText, 200), 2000);
+
+        document.getElementById('uploadForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        var fileInput = document.getElementById('ppt_file');
+        var formData = new FormData();
+        formData.append('file', fileInput.files[0]);
+
+        fetch('/upload', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+    });
+
+
+
+<!--        ___________________________________HelpToggle-->
+        function openPopup() {
+    document.getElementById("gesturePopup").style.display = "block";
+}
+
+// Function to close the popup
+function closePopup() {
+    document.getElementById("gesturePopup").style.display = "none";
+}
+
+// Function to toggle the flag for Nova or Chalkboard command
+function toggleFlag() {
+    const flagToggleCheckbox = document.getElementById("flagToggleCheckbox");
+    const flagStatusText = document.getElementById("flagStatusText");
+
+    if (flagToggleCheckbox.checked) {
+        flagStatusText.textContent = "Enabled";
+        flagStatusText.classList.add("enabled");
+        flagStatusText.classList.remove("disabled");
+        // You can add code here to enable Nova or Chalkboard functionality
+        console.log("Flag is enabled");
+    } else {
+        flagStatusText.textContent = "Disabled";
+        flagStatusText.classList.add("disabled");
+        flagStatusText.classList.remove("enabled");
+        // You can add code here to disable Nova or Chalkboard functionality
+        console.log("Flag is disabled");
+    }
+}
     </script>
 </body>
 </html>
