@@ -12,7 +12,11 @@
             padding: 0;
             background-color: #f4f4f4;
         }
-
+          li strong img {
+      width: 1em; /* Adjust the size to match other symbols */
+      height: 1em; /* Ensures a consistent height */
+      vertical-align: middle; /* Aligns the image with the text baseline */
+  }
         h1 {
             text-align: center;
             margin-top: 20px;
@@ -96,7 +100,39 @@
         }
 
 
+header {
+    background-color: #2C3E50;
+    padding: 4px;
+<!--    border-radius: 10px;-->
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 1300px;
+    width: 100%;
+height: auto;
+}
 
+/* Heading styling */
+h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+/* Add a smooth transition on hover for the heading */
+h1:hover {
+    color: #1ABC9C;
+    transform: scale(1.05);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#openPopupButton{
+position:absolute;
+ background-color: green;
+ right:-10rem;}
 
 
 .container {
@@ -111,13 +147,15 @@ top:1%;
 button {
     background-color: #007BFF;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-size: 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
 }
-
+#toggle-voice{position:absolute;
+top:80%;
+left:1.5rem;}
 button:hover {
     background-color: #0056b3;
 }
@@ -136,11 +174,14 @@ button:hover {
 
 .popup-content {
     background-color: white;
+    margin: 5% auto;
     padding: 20px;
     border-radius: 10px;
     position: relative;
     max-width: 500px;
-    margin: 0 auto;
+
+    max-height: 80%; /* Limit the height of the popup */
+    overflow-y: auto
 }
 
 .close-btn {
@@ -151,6 +192,64 @@ button:hover {
     color: #333;
     cursor: pointer;
 }
+
+.blackboard-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70rem;
+<!--            background-color: rgba(0, 0, 0, 0.7); /* Darker overlay */-->
+            display: none;
+            justify-content: center;
+            align-items: center;
+             z-index: 1000;
+        }
+        .blackboard-popup {
+            background: #34495e; /* Darker popup background */
+            width: 80%;
+            height: 70rem;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            overflow: hidden;
+<!--             z-index: 1000;-->
+        }
+        .blackboard-popup iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+<!--             z-index: 1000;-->
+        }
+        .blackboard-close-btn {
+
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .blackboard-close-btn:hover {
+            background-color: #c0392b;
+        }
+        .blackboard-open-btn {
+            background-color: #16a085;
+            position:absolute;
+            top:90%;
+            color: white;
+            cursor: pointer;
+            font-size: 12px;
+
+        }
+        .blackboard-open-btn:hover {
+            background-color: #1abc9c;
+        }
+
 
 h2 {
     margin-bottom: 20px;
@@ -207,7 +306,9 @@ h2 {
     </style>
 </head>
 <body>
-    <h1>Gesture Recognition with AI</h1>
+    <header>
+        <h1>GENERATIVE AI POWERED MODERN EDUCATION TOOL TO ENHANCE TEACHING-LEARNING EXPERIENCE</h1>
+    </header>
 
     <!-- Camera Feed -->
     <img src="{{ url_for('video_feed') }}" class="camera-screen" alt="Camera Feed">
@@ -243,7 +344,7 @@ h2 {
     </div>
 
     <!-- Toggle Voice Button -->
-    <button id="toggle-voice">Enable/Disable Chalk Board Voice</button>
+    <button id="toggle-voice">Enable Chalk Board Voice</button>
  <div class="container">
 
 
@@ -257,13 +358,13 @@ h2 {
                 <h2 id="gestureHeader">Hand Gesture Symbols and Their Actions</h2>
                 <div id="gestureList" class="gesture-list">
                     <ul>
-                        <li><strong id="gesture1">✌️</strong> - Remove Canvas</li>
-                        <li><strong id="gesture2">🖐️</strong> - Remove text on canvas</li>
-                        <li><strong id="gesture3">✋</strong> - To Draw on Canvas</li>
-                        <li><strong id="gesture4">👌</strong> - Accept the suggestion</li>
-                        <li><strong id="gesture5">🤟</strong> - Get AI Responce</li>
-                        <li><strong id="gesture6">🤙</strong> - Reject the suggestion</li>
-                    </ul>
+                            <li><strong id="gesture1">✊</strong> - Remove Canvas</li>
+                            <li><strong id="gesture2">🤙️</strong> - Remove text on canvas</li>
+                            <li><strong id="gesture3"><img src="{{ url_for('static', filename='images/fore.png') }}" ></strong> - To Draw on Canvas</li>
+                            <li><strong id="gesture4">👌</strong> - Accept the suggestion</li>
+                            <li><strong id="gesture5">🤟</strong> - Get AI Responce</li>
+                            <li><strong id="gesture6"><img src="{{ url_for('static', filename='images/4finger.png') }}" ></strong> - Reject the suggestion</li>
+                        </ul>
                     <h2 id="gestureHeader">Voice commands</h2>
                       <ul>
                           can you play
@@ -271,15 +372,51 @@ h2 {
                         <li><strong id="cmd1"></strong> - Wake up Nova</li>
                         <li><strong id="cmd2"></strong> - Open Notepad</li>
                         <li><strong id="cmd3"></strong> - Open Calculator</li>
-                        <li><strong id="cmd4"></strong> - Open PowerPoint</li>
                         <li><strong id="cmd5"></strong> - Get AI Responce</li>
                         <li><strong id="cmd6"></strong> - Open Wikipedia</li>
                           <li><strong id="cmd7"></strong> - can you search for</li>
                           <li><strong id="cmd7"></strong> - can you play</li>
                           <li><strong id="cmd7"></strong> - search in wikipedia</li>
+                          <li><strong id="cmd4"></strong> - Power point(Start Presentation,
+                         forward -for next slide
+                          backward -for prev slide
+                          exit </li>
+
+
+
 
 
                     </ul>
+                     <h2 id="gestureHeader">Commands for Notepad</h2>
+    <ul>
+        <li><strong>Open Notepad</strong> - Opens the Notepad application.</li>
+        <li><strong>Type</strong> - Types the words in Notepad.</li>
+        <li><strong>Save it</strong> - Saves the document in Notepad and stops typing.</li>
+        <li><strong>Close Notepad</strong> - Closes the Notepad application.</li>
+        <li><strong>Clear Text</strong> - Clears all the text in the Notepad.</li>
+    </ul>
+
+    <h2 id="gestureHeader">Commands for Calculator</h2>
+    <ul>
+        <li><strong>Open Calculator</strong> - Opens the Calculator application.</li>
+        <li><strong>Add</strong> - Performs addition on the Calculator.</li>
+        <li><strong>Subtract</strong> - Performs subtraction on the Calculator.</li>
+        <li><strong>Multiply</strong> - Performs multiplication on the Calculator.</li>
+        <li><strong>Divide</strong> - Performs division on the Calculator.</li>
+        <li><strong>Clear</strong> - Clears the Calculator's current input.</li>
+        <li><strong>Close Calculator</strong> - Closes the Calculator application.</li>
+    </ul>
+
+    <h2 id="gestureHeader">Commands for PowerPoint</h2>
+    <ul>
+        <li><strong>Start Presentation</strong> - Starts the PowerPoint slideshow.</li>
+        <li><strong>Next Slide</strong> - Moves to the next slide in the presentation.</li>
+        <li><strong>Previous Slide</strong> - Moves to the previous slide in the presentation.</li>
+        <li><strong>End Presentation</strong> - Ends the PowerPoint slideshow.</li>
+        <li><strong>Exit PowerPoint</strong> - Exits the PowerPoint application.</li>
+        <li><strong>Pause Slideshow</strong> - Pauses the current PowerPoint presentation.</li>
+    </ul>
+
 
                 </div>
 
@@ -287,7 +424,23 @@ h2 {
             </div>
         </div>
     </div>
+    <button class="blackboard-open-btn" onclick="openBlackboardPopup()">Open Blackboard Overlay with Link</button>
+
+    <div class="blackboard-overlay" id="blackboardOverlay">
+        <div class="blackboard-popup">
+            <button class="blackboard-close-btn" onclick="closeBlackboardPopup()">Close</button>
+            <h2>External Website in Blackboard Popup</h2>
+            <iframe src="https://dummy-board123.vercel.app/" sandbox="allow-scripts allow-same-origin" width="100%" height="500px"></iframe>
+
+        </div>
+    </div>
+
     <script>
+        let debounceTimer;
+        function debounce(func, delay) {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(func, delay);
+        }
         let flag = 0;
 
         // Toggle Voice Functionality
@@ -366,6 +519,27 @@ function toggleFlag() {
         console.log("Flag is disabled");
     }
 }
+<!--        for popup black board-->
+
+         function openBlackboardPopup() {
+            document.getElementById('blackboardOverlay').style.display = 'flex';
+        }
+
+        function closeBlackboardPopup() {
+            document.getElementById('blackboardOverlay').style.display = 'none';
+        }
+
+          async function updateText() {
+            try {
+                const response = await fetch('/get_voice_input');
+                const data = await response.json();
+                document.getElementById('aiResponse').innerText = data.ai_response || "No response received.";
+            } catch (error) {
+                console.error("Error fetching AI response:", error);
+                document.getElementById('aiResponse').innerText = "Error retrieving response.";
+            }
+        }
+  setInterval(() => debounce(updateText, 200), 2000);
     </script>
 </body>
 </html>

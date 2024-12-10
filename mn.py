@@ -246,16 +246,16 @@ def generate_frames():
 
             last_combined_time = current_time
 
-        if fingers == [0, 1, 1, 1, 0] and (current_time - last_combined_time >= 7):
+        if fingers == [0, 0, 1, 1, 1] and (current_time - last_combined_time >= 7):
             model_responce =""
-
+            canvas = np.zeros_like(img)
             canvas = clean_canvas.copy()
             draw_text_multiline(canvas, voice_text, (50, y_offset), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2,
                                 max_text_width)
 
             last_combined_time = current_time
         prev_text = voice_text
-        if fingers == [1, 0, 0, 0, 1]:
+        if fingers == [1, 1, 1, 1, 1]:
             voice_text = ""
             model_responce = ""
             prev_text = ""
@@ -436,8 +436,6 @@ def main():
         speak("Shutting down Nova.")
 
 
-# Function to listen for the wake word and user commands
-
 def listen_for_command():
     with sr.Microphone() as source:
         recognizer.adjust_for_ambient_noise(source, duration=0.5)
@@ -604,14 +602,14 @@ def open_presentation(file_path):
 
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
-# ppt_file = os.path.join("C:", "Users", "HP", "Desktop", "Review_2-ppt[1]__-[1]")
+
 
 @app.route('/upload', methods=['POST'])
 def upload_file_post():
-    # Get the uploaded file from the form data
-    ppt_file = request.files.get('file')  # Ensure the form field is named 'file'
 
-    # Check if no file was uploaded
+    ppt_file = request.files.get('file')
+
+
     if not ppt_file:
         return jsonify({"error": "No file uploaded."}), 400
 
@@ -626,7 +624,23 @@ def upload_file_post():
 
     try:
         if os.name == 'nt':
-            subprocess.Popen(['start', filepath], shell=True)
+            open_presentation(filepath)
+            # subprocess.Popen(['start', filepath], shell=True)
+            presentation = open_presentation(filepath)
+            if presentation is None:
+                return jsonify({"error": "Failed to open the presentation."}), 500
+
+            # Directly trigger control functionality
+            speak("Presentation opened. Now starting control functionality.")
+            while True:
+                command = listen_for_command()
+                if command:
+                    action = control_presentation(presentation, command)
+                    if action == "exit":
+                        return jsonify({"message": "Presentation closed."})
+                else:
+                    speak("No command received. Please try again.")
+
         elif os.name == 'posix':
             subprocess.Popen(['open', filepath])
         return jsonify({"message": f"File uploaded and opened: {ppt_file.filename}"}), 200
@@ -700,13 +714,13 @@ def toggle_voice():
     global flag, voice_thread
 
     data = request.json
-    flag = data.get('flag', 0)  # Update the flag value based on frontend input
+    flag = data.get('flag', 0)
     status = "enabled" if flag == 1 else "disabled"
     print(flag)
-    if flag == 1:  # Start or resume voice recognition
+    if flag == 1:
         voice_thread = threading.Thread(target=listen_to_voice)
         voice_thread.start()
-    else:  # Stop voice recognition
+    else:
         flag = 0
         voice_thread = threading.Thread(target=main)
         voice_thread.start()
