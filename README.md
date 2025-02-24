@@ -62,11 +62,14 @@ Expected Output
 Handwriting Recognition
 (Picture attached below)
 
+
+
  NLP-based Correction
-(Picture attached below)
+![Alt text](autosuggestion.png)
 
 AI-driven Suggestions
-(Picture attached below)
+![Alt text](geminresult.png)
+
 
 
 
